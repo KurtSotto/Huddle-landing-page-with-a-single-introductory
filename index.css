@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: rgb(103, 75, 176);
-    background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
+    background-image: url(/images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -151,7 +151,7 @@ a:hover{
 /* media query */
 @media (min-width: 376px) and (max-width: 768px){
     body{
-        background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+        background-image: url(/images/bg-desktop.svg);
         background-position: center;
         background-size: cover;
     }
@@ -159,7 +159,7 @@ a:hover{
 
 @media (min-width: 769px){
     body{
-        background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
+        background-image: url(/images/bg-desktop.svg);
         background-position: center;
         background-size: cover;
     }
