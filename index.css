@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background-color: rgb(103, 75, 176);
-    background-image: url(/images/bg-mobile.svg);
+    background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-mobile.svg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -129,29 +129,11 @@ footer{
     gap: 1.8em;
 }
 
-.coder{
-    border: 1px solid black;
-    max-width: 450px;
-    margin-top: 2em;
-    text-align: center;
-    color: white;
-    font-weight: 600;
-}
-
-a{
-    color: white;
-    text-decoration: none;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
 
 /* media query */
 @media (min-width: 376px) and (max-width: 768px){
     body{
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
         background-position: center;
         background-size: cover;
     }
@@ -159,7 +141,7 @@ a:hover{
 
 @media (min-width: 769px){
     body{
-        background-image: url(/images/bg-desktop.svg);
+        background-image: url(/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg);
         background-position: center;
         background-size: cover;
     }
@@ -174,17 +156,17 @@ a:hover{
 
     main{
         flex-direction: row;
-        gap: 2em;
+        justify-content: space-between;
         width: 90%;
     }
 
     .img-section{
-        width: 63%;
+        width: 60%;
     }
 
     .text-section{
         margin-top: 0;
-        width: 35%;
+        width: 33%;
         font-size: 1.5rem;
     }
 
@@ -205,12 +187,14 @@ a:hover{
         width: 40%;
     }
 
+    .flex{
+        margin-right: 1.1em;
+    }
+
     footer{
-        margin-top: 2em;
         width: 90%;
-        margin-top: 0;
+        margin-top: 1em;
         justify-content: end;
-        gap: .8em;
     }
 } 
 
